@@ -34,3 +34,6 @@ Now with your newly baked Icon component, you can easily add icons to your site:
 ```
 
 ## [Demo](https://kyleamathews.github.io/react-icon-factory)
+
+Code and inspiration came from this blog post
+http://dmfrancisco.github.io/react-icons/
