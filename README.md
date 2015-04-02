@@ -39,7 +39,7 @@ Now with your newly baked Icon component, you can easily add icons to your site:
 
 ## Finding icons.
 The SVG for any icons you add to the factory must be designed to fit in
-a 24px square (this could be an option I suppose).
+a 24px square (this could also be made an option).
 
 [@dmfrancisco's post](http://dmfrancisco.github.io/react-icons/) has all
 of Google's Material Design icons already formatted for this module.
