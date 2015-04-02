@@ -36,7 +36,8 @@ Now with your newly baked Icon component, you can easily add icons to your site:
 ## [Demo](https://kyleamathews.github.io/react-icon-factory)
 
 The original code came from this blog post
-http://dmfrancisco.github.io/react-icons/
+http://dmfrancisco.github.io/react-icons/ (which post also has a
+built-in tool for finding Material Icon SVG).
 
 ## Future work
 I'd love to take all open source icon sets and turn them into an NPM
