@@ -34,3 +34,13 @@ Now with your newly baked Icon component, you can easily add icons to your site:
 ```
 
 ## [Demo](https://kyleamathews.github.io/react-icon-factory)
+
+The original code came from this blog post
+http://dmfrancisco.github.io/react-icons/
+
+## Future work
+I'd love to take all open source icon sets and turn them into an NPM
+module with the SVG for each icon as its own module. Then to use a new
+icon, you'd simply require it `drafts =
+require('material-icons/drafts')` and add it too the IconFactory.
+Couldn't be easier.
