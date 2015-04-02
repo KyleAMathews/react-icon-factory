@@ -20,7 +20,11 @@ Icon = IconFactory({
 module.exports = React.createClass
   render: ->
     <div>
-      <Headroom style={{background: '#FFC107', padding: rhythm(1)}} wrapperStyle={{marginBottom: 32}}>
+      <Headroom
+        style={{background: '#FFC107', padding: rhythm(1)}}
+        wrapperStyle={{marginBottom: 32}}
+        disable
+      >
         <Container style={maxWidth:'1000px'}>
           <h1 style={{marginBottom: 0, color: 'white'}}>React Icon Factory</h1>
         </Container>
