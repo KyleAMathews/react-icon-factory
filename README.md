@@ -6,11 +6,12 @@ Simply add icon SVGs and the react icon factory will manufacture a custom icon c
 `npm install react-icon-factory`
 
 ## Usage
-### First load into the IconFactory an object each icon's SVG.
+### First load into the IconFactory an object with the SVG for each icon.
 
 ```javascript
 var IconFactory = require('react-icon-factory');
-// svg truncated here.
+
+// svg truncated for readability.
 var Icon = IconFactory({
   drafts: <g><path d="M21.99 8c0-.72-.37-1.35-.94-1></path></g>
   "account-child": <g><path d="M16.5 12c1.38 0 -.28z"></path></g>
@@ -21,7 +22,7 @@ var Icon = IconFactory({
 })
 ```
 
-Then with your newly baked Icon component, you can now easily render icons anywhere in your app e.g.
+Now with your newly baked Icon component, you can easily add icons to your site:
 
 ```javascript
 <Icon icon="schedule" size=72/>

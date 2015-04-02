@@ -4,7 +4,7 @@ IconFactory = require '../src/index'
 Headroom = require 'react-headroom'
 Typography = require 'typography'
 
-typography = new Typography()
+typography = new Typography({})
 rhythm = typography.rhythm
 typography.injectStyles()
 
@@ -29,12 +29,17 @@ module.exports = React.createClass
         <a href="https://github.com/KyleAMathews/react-icon-factory">Code on Github</a>
         <br />
         <br />
-        <h2>How to manufacture your own icon component.</h2>
-        <h3>First load into the IconFactory an object each icon's SVG.</h3>
+        <h2>SVG Icons are great!</h2>
+        <p>They're small, retina-ready, scale to any size, can be styled with css, animated, etc. etc. etc.
+        But they're also a pain to work with. So this project is a step towards fixing that.</p>
+
+        <h3>How to manufacture a icon component.</h3>
+        <p>First load into the IconFactory an object with the SVG for each icon.</p>
         <pre><code>
         {"""
         var IconFactory = require('react-icon-factory');
-        // svg truncated here.
+
+        // svg truncated for readability.
         var Icon = IconFactory({
           drafts: <g><path d="M21.99 8c0-.72-.37-1.35-.94-1></path></g>
           "account-child": <g><path d="M16.5 12c1.38 0 -.28z"></path></g>
@@ -45,7 +50,7 @@ module.exports = React.createClass
         })
         """}
         </code></pre>
-        <h3>Then with your newly baked Icon component, you can now easily render icons anywhere in your app e.g.</h3>
+        <p>Now with your newly baked Icon component, you can easily add icons to your site.</p>
         <pre><code>
         {"""
         <Icon icon="schedule" size=72/>
