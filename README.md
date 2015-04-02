@@ -1,6 +1,8 @@
 # React Icon Factory
 Simply add icon SVGs and the react icon factory will manufacture a custom icon component!
 
+The original code came from this blog post
+http://dmfrancisco.github.io/react-icons/
 
 ## Install
 `npm install react-icon-factory`
@@ -34,9 +36,6 @@ Now with your newly baked Icon component, you can easily add icons to your site:
 ```
 
 ## [Demo](https://kyleamathews.github.io/react-icon-factory)
-
-The original code came from this blog post
-http://dmfrancisco.github.io/react-icons/
 
 ## Finding icons.
 The SVG for any icons you add to the factory must be designed to fit in
