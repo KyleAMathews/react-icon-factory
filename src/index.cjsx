@@ -21,8 +21,10 @@ module.exports = (icons) ->
       styles = {
         fill: "currentcolor"
         verticalAlign: "middle"
-         # Use CSS instead of the width attr to support non-pixel units
+        # Use CSS instead of the width attr to support non-pixel units
         width: @props.size
+        # Prevents scaling issue in IE
+        height: @props.size
       }
 
       return (
