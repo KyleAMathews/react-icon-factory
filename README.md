@@ -27,12 +27,12 @@ var Icon = IconFactory({
 Now with your newly baked Icon component, you can easily add icons to your site:
 
 ```javascript
-<Icon icon="schedule" size=72/>
-<Icon icon="account-child" size=72/>
-<Icon icon="accessibility" size=72 />
-<Icon icon="call" size=72 />
-<Icon icon="content-copy" size=72 />
-<Icon icon="schedule" size=72 />
+<Icon name="schedule" size=72/>
+<Icon name="account-child" size=72/>
+<Icon name="accessibility" size=72 />
+<Icon name="call" size=72 />
+<Icon name="content-copy" size=72 />
+<Icon name="schedule" size=72 />
 ```
 
 ## [Demo](https://kyleamathews.github.io/react-icon-factory)

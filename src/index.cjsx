@@ -4,7 +4,7 @@ objectAssign = require 'object-assign'
 module.exports = (icons) ->
   React.createClass
     propTypes:
-      icon: React.PropTypes.string.isRequired
+      name: React.PropTypes.string.isRequired
       size: React.PropTypes.oneOfType([
         React.PropTypes.string,
         React.PropTypes.number
@@ -33,6 +33,6 @@ module.exports = (icons) ->
             styles,
             @props.style
           )}>
-            {icons[@props.icon]}
+            {icons[@props.name]}
         </svg>
       )
