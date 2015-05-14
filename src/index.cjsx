@@ -4,7 +4,7 @@ objectAssign = require 'object-assign'
 module.exports = (icons) ->
   React.createClass
     propTypes:
-      icon: React.PropTypes.string.isRequired
+      name: React.PropTypes.string.isRequired
       size: React.PropTypes.oneOfType([
         React.PropTypes.string,
         React.PropTypes.number
@@ -21,8 +21,10 @@ module.exports = (icons) ->
       styles = {
         fill: "currentcolor"
         verticalAlign: "middle"
-         # Use CSS instead of the width attr to support non-pixel units
+        # Use CSS instead of the width attr to support non-pixel units
         width: @props.size
+        # Prevents scaling issue in IE
+        height: @props.size
       }
 
       return (
@@ -31,6 +33,6 @@ module.exports = (icons) ->
             styles,
             @props.style
           )}>
-            {icons[@props.icon]}
+            {icons[@props.name]}
         </svg>
       )

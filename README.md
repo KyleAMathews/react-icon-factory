@@ -1,6 +1,8 @@
 # React Icon Factory
 Simply add icon SVGs and the react icon factory will manufacture a custom icon component!
 
+The original code came from this blog post
+http://dmfrancisco.github.io/react-icons/
 
 ## Install
 `npm install react-icon-factory`
@@ -25,18 +27,30 @@ var Icon = IconFactory({
 Now with your newly baked Icon component, you can easily add icons to your site:
 
 ```javascript
-<Icon icon="schedule" size=72/>
-<Icon icon="account-child" size=72/>
-<Icon icon="accessibility" size=72 />
-<Icon icon="call" size=72 />
-<Icon icon="content-copy" size=72 />
-<Icon icon="schedule" size=72 />
+<Icon name="schedule" size=72/>
+<Icon name="account-child" size=72/>
+<Icon name="accessibility" size=72 />
+<Icon name="call" size=72 />
+<Icon name="content-copy" size=72 />
+<Icon name="schedule" size=72 />
 ```
 
 ## [Demo](https://kyleamathews.github.io/react-icon-factory)
 
-The original code came from this blog post
-http://dmfrancisco.github.io/react-icons/
+## Finding icons.
+The SVG for any icons you add to the factory must be designed to fit in
+a 24px square (this could also be made an option).
+
+[@dmfrancisco's post](http://dmfrancisco.github.io/react-icons/) has all
+of Google's Material Design icons already formatted for this module.
+
+The easiest way I've found to get SVG for icons from other sets is
+icomoon.io. It handles the conversion of SVGs to the right format for
+you. Note, you'll need to change the size (in the upper left hand
+corner) to 24px before downloading the SVGs. You'll also want to edit
+out the `fill="#444444"` that's in each SVG. Then copy the
+`<path></path>` code and surround that in `<g></g>` and it should then
+be ready to add to the factory.
 
 ## Future work
 I'd love to take all open source icon sets and turn them into an NPM

@@ -1,7 +1,7 @@
 {
   "name": "react-icon-factory",
   "description": "Simply add icon SVGs and the react icon factory will manufacture a custom icon component!",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "bugs": {
     "url": "https://github.com/KyleAMathews/react-icon-factory/issues"
