@@ -57,22 +57,22 @@ module.exports = React.createClass
         <p>Now with your newly baked Icon component, you can easily add icons to your site.</p>
         <pre><code>
         {"""
-        <Icon icon="drafts" size=72 style={{fill: 'green'}} />
-        <Icon icon="account-child" size=72 />
-        <Icon icon="accessibility" size=72 />
-        <Icon icon="call" size=72 />
-        <Icon icon="content-copy" size=72 style={{fill: 'blue'}} />
-        <Icon icon="schedule" size=72 style={{stroke:'red'}} />
+        <Icon name="drafts" size=72 style={{fill: 'green'}} />
+        <Icon name="account-child" size=72 />
+        <Icon name="accessibility" size=72 />
+        <Icon name="call" size=72 />
+        <Icon name="content-copy" size=72 style={{fill: 'blue'}} />
+        <Icon name="schedule" size=72 style={{stroke:'red'}} />
         """}
         </code></pre>
 
         <h3>Which outputs</h3>
-        <Icon icon="drafts" size=72 style={{fill: 'green'}} />
-        <Icon icon="account-child" size=72 />
-        <Icon icon="accessibility" size=72 />
-        <Icon icon="call" size=72 />
-        <Icon icon="content-copy" size=72 style={{fill: 'blue'}} />
-        <Icon icon="schedule" size=72 style={{stroke:'red'}} />
+        <Icon name="drafts" size=72 style={{fill: 'green'}} />
+        <Icon name="account-child" size=72 />
+        <Icon name="accessibility" size=72 />
+        <Icon name="call" size=72 />
+        <Icon name="content-copy" size=72 style={{fill: 'blue'}} />
+        <Icon name="schedule" size=72 style={{stroke:'red'}} />
 
       </Container>
     </div>
