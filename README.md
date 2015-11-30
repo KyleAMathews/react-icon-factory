@@ -4,6 +4,11 @@ Simply add icon SVGs and the react icon factory will manufacture a custom icon c
 The original code came from this blog post
 http://dmfrancisco.github.io/react-icons/
 
+## Just use React-Icons
+If you just want to use icons from one of the popular open source icon packs, React-Icons is awesome. @gorangajic has set things up so each icon is importable as its own component.
+
+https://github.com/gorangajic/react-icons
+
 ## Install
 `npm install react-icon-factory`
 
@@ -53,8 +58,10 @@ out the `fill="#444444"` that's in each SVG. Then copy the
 be ready to add to the factory.
 
 ## Future work
-I'd love to take all open source icon sets and turn them into an NPM
+<strike>I'd love to take all open source icon sets and turn them into an NPM
 module with the SVG for each icon as its own module. Then to use a new
 icon, you'd simply require it `drafts =
 require('material-icons/drafts')` and add it too the IconFactory.
-Couldn't be easier.
+Couldn't be easier.</strike>
+
+Someone did this! https://github.com/gorangajic/react-icons
