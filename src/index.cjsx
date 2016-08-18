@@ -28,7 +28,7 @@ module.exports = (icons) ->
       }
 
       return (
-        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" fit
+        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"
           style={objectAssign(
             styles,
             @props.style
